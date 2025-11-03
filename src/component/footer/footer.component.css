@@ -1,0 +1,13 @@
+.secfooter{
+    background-color: #2C3E50;
+}
+i{
+    color: white;
+    border: solid 1px white;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-flex; 
+     align-items: center;
+     justify-content: center;
+     width: 35px;
+}

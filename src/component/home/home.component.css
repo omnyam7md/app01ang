@@ -1,0 +1,26 @@
+.homebody{
+    background-color: #1ABC9C;
+}
+
+.line-star {
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.line {
+  width: 100px; 
+  height: 4px; 
+  background-color: white; 
+}
+
+.star {
+  color: white; 
+}
+
+img{
+    max-width: 250px;
+    margin-top: 80px;
+}

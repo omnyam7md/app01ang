@@ -1,0 +1,66 @@
+body {
+  padding-top: 100px;
+}
+.line-star {
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.line {
+  width: 100px; 
+  height: 4px; 
+  background-color: #2C3E50; 
+}
+
+.star {
+  color: #2C3E50; 
+}
+h1{
+      color: #2C3E50; 
+
+}
+.form-control::placeholder {
+    color: #999; 
+    opacity: 1; 
+  }
+.form-floating label {
+  color: #2d2d2d; 
+  transform: translateY(8px);
+  transition: all 0.8s ease; 
+  opacity: 0; 
+
+}
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+    color: #1ABC9C; 
+  transform: translateY(-20px); 
+  opacity: 1; 
+
+}
+.form-floating input{
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 5;
+}
+.form-control:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.vh-100 {
+  margin-top: 100px;
+}
+
+.btn-primary{
+    background-color: #1ABC9C;
+    padding: 10px;
+    color: white;
+    border: none;
+
+}
+.btn-primary :hover{
+background-color: #1ABC9C;
+
+}
