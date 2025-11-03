@@ -11,7 +11,20 @@
 .nav-link.active{
     background-color: #1ABC9C;
     border-radius: 6px;
+    width: auto;
 }
 .navbar.shrink {
   height: 12%;
 }
+
+.custom-navbar {
+  background-color: #2C3E50; 
+}
+.navbar-collapse {
+  background-color: #2C3E50; 
+}
+
+.navbar-collapse .nav-link {
+  color: #fff ;
+}
+
