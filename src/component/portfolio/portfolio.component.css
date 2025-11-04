@@ -1,6 +1,6 @@
-.vh-100 {
+.min-vh-100 {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .line-star {
@@ -29,19 +29,26 @@ h1{
   cursor: pointer;
   overflow: hidden;
   border-radius: 8px;
+  padding: 0px;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
 .image-container img {
   display: block;
-  width: 100%;
+  width: 90%;
   height: auto;
   border-radius: 8px;
   transition: transform 0.4s ease;
+  gap: 2px;
 }
 
 .image-container .overlay {
   position: absolute;
-  inset: 0;
+  width: 90%;
+  top: 0;
+  bottom: 0;
   background-color: rgba(26, 188, 156, 0.7);
   opacity: 0;
   display: flex;
@@ -99,3 +106,7 @@ h1{
   color: white;
   cursor: pointer;
 }
+.images-container {
+  padding-bottom: 50px;
+}
+

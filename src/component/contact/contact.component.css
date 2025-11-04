@@ -1,6 +1,4 @@
-body {
-  padding-top: 100px;
-}
+
 .line-star {
     max-width: 200px;
     display: flex;
@@ -49,8 +47,10 @@ h1{
   outline: none;
   box-shadow: none;
 }
-.vh-100 {
+.min-vh-100 {
   margin-top: 100px;
+  margin-bottom: 50px;
+  overflow: hidden;
 }
 
 .btn-primary{
